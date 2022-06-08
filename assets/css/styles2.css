@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@500;600;700&display=swap");
+:root {
+  --header-height: 3rem;
+  --hue-color: 190;
+/* HSL color */
+  --first-color: hsl(var(--hue-color), 64%, 22%);
+  --first-color-second: hsl(var(--hue-color), 64%, 22%);
+  --first-color-alt: hsl(var(--hue-color), 64%, 15%);
+  --title-color: hsl(var(--hue-color), 64%, 18%);
+  --text-color: hsl(var(--hue-color), 24%, 35%);
+  --text-color-light: hsl(var(--hue-color), 8%, 60%);
+  --input-color: hsl(var(--hue-color), 24%, 97%);
+  --body-color: hsl(var(--hue-color), 100%, 99%);
+  --white-color: #FFF;
+  /*========== Font and typography ==========*/
+  --body-font: 'Open Sans', sans-serif;
+  --title-font: 'Raleway', sans-serif;
+  --biggest-font-size: 2.5rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  /*========== Font weight ==========*/
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  --mb-0-25: .25rem;
+  --mb-0-5: .5rem;
+  --mb-0-75: .75rem;
+  --mb-1: 1rem;
+  --mb-1-25: 1.25rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+
+  /*========== Hover overlay ==========*/
+  --img-transition: .3s;
+  --img-hidden: hidden;
+  --img-scale: scale(1.1);
+}
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: var(--header-height) 0 0 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+h1, h2, h3 {
+  padding: 40px;  
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  font-family: var(--title-font);
+}
+
+.ho1 img {
+    margin-left: 10px;
+    width: 310px;
+    height: 100%;
+    margin-right: 30px;
+}
+
+.h1p {
+    padding: 25px;
+    text-indent: 10px;
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    color: black;
+  }
+
+.ho2 img {
+    margin-left: 10px;
+    width: 310px;
+    height: 100%;
+    margin-right: 30px;
+} 
+
+.h2p {
+    padding: 25px;
+    text-indent: 10px;
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    color: black;
+}
+
+.ho3 img {
+    margin-left: 10px;
+    width: 310px;
+    height: 100%;
+    margin-right: 30px;
+} 
+
+.h3p {
+    padding: 25px;
+    text-indent: 10px;
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    color: black;
+}
+
+.ho4 img {
+    margin-left: 10px;
+    width: 310px;
+    height: 100%;
+    margin-right: 30px;
+} 
+
+.h4p {
+    padding: 25px;
+    text-indent: 10px;
+    font-size: var(--normal-font-size);
+    font-family: var(--body-font);
+    color: black;
+}
+
+.cu1 img {
+  margin-left: 10px;
+  width: 310px;
+  height: 100%;
+  margin-right: 30px;
+} 
+
+.cup1 {
+  padding: 25px;
+  text-indent: 10px;
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  color: black;
+}
+
+.cu2 img {
+  margin-left: 10px;
+  width: 310px;
+  height: 100%;
+  margin-right: 30px;
+} 
+
+.cup2 {
+  padding: 25px;
+  text-indent: 10px;
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  color: black;
+}
+
+.cu3 img {
+  margin-left: 10px;
+  width: 310px;
+  height: 100%;
+  margin-right: 30px;
+} 
+
+.cup3 {
+  padding: 25px;
+  text-indent: 10px;
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  color: black;
+}
+
+.cu4 img {
+  margin-left: 10px;
+  width: 310px;
+  height: 100%;
+  margin-right: 30px;
+} 
+
+.cup4 {
+  padding: 25px;
+  text-indent: 10px;
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  color: black;
+}
+
+.cu5 img {
+  margin-left: 10px;
+  width: 310px;
+  height: 100%;
+  margin-right: 30px;
+} 
+
+.cup5 {
+  padding: 25px;
+  text-indent: 10px;
+  font-size: var(--normal-font-size);
+  font-family: var(--body-font);
+  color: black;
+}
+
+
+
+
+
